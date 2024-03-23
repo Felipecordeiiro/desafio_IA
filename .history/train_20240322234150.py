@@ -66,6 +66,7 @@ def train():
             csv_data = csv.DictReader(csv_file)
 
             for csv_line in csv_data:
+                print(csv_line)
                 pregoes_list.append(csv_line['Códigos de Negociação'])
                 for ask in asks:
                     try:

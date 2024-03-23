@@ -13,11 +13,11 @@ def bot():
 
     print("\n\nAI Bot 🏦 =======================")
     print("Opções no chat:")
-    print(" ▶️  historico: para acessar o Histórico.")
-    print(" ▶️  sair: para encerrar.")
-    print(" ▶️  ajuda: para pedir ajuda ao Bot.\n")
+    print(" ▶️ historico: para acessar o Histórico.")
+    print(" ▶️ sair: para encerrar.")
+    print(" ▶️ ajuda: para pedir ajuda ao Bot.\n")
     while True:
-        query = input(" You ")
+        query = input("😀 > ")
         history.append(query)
         history_dialogue.append(query)
 

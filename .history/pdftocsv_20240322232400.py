@@ -229,14 +229,15 @@ def pdftocsv(csv_path):
   dados = scrapping('pdfs')
   if not os.path.exists(csv_path):
     os.makedirs(csv_path)
+  else:
+    for index, row in dados.iterrows():
+        file = row['filename']
+        content = row['content']
+        filename = file.split(".")[0]
+        filepath = f'{csv_path}/{filename}.csv'
+        pdf = tratamento_geral(content)
+        pdf_flatted = flatten_dict(pdf)
 
-  for index, row in dados.iterrows():
-      file = row['filename']
-      content = row['content']
-      filename = file.split(".")[0]
-      filepath = f'{csv_path}/{filename}.csv'
-      pdf = tratamento_geral(content)
-      pdf_flatted = flatten_dict(pdf)
-      convert_csv(pdf_flatted, filepath)
+        convert_csv(pdf_flatted, filepath)
 
 pdftocsv('csv_files')

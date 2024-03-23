@@ -62,7 +62,7 @@ def train():
     pregoes_list = []
 
     for csv_file_path in csvs_list:
-        with open(os.path.join(CSVS_DIR, csv_file_path), 'r', encoding='UTF-8') as csv_file:
+        with open(os.path.join(CSVS_DIR, csv_file_path), 'r') as csv_file:
             csv_data = csv.DictReader(csv_file)
 
             for csv_line in csv_data:
@@ -70,19 +70,19 @@ def train():
                 for ask in asks:
                     try:
                         trainer_asks.train([
-                            asks[ask].format(csv_line['Códigos de Negociação']),
+                            asks[ask].format(csv_line['nome_pregao']),
                             csv_line[ask],
                         ])
                     except:
                         pass
 
     trainer_asks.train([
-        "Quais são todos os códigos de negociação?",
+        "Quais todos os pregões?",
         '\n'.join(pregoes_list),
     ])
     trainer_asks.train([
         "Ajuda",
-        "Quer saber quais os tipos de perguntas disponíveis?",
+        "Deseja que eu liste os tipos de perguntas que podem ser feitas?",
         "Sim",
         '\n'.join(asks.values())
     ])

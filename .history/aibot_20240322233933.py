@@ -13,15 +13,15 @@ def bot():
 
     print("\n\nAI Bot 🏦 =======================")
     print("Opções no chat:")
-    print(" ▶️  historico: para acessar o Histórico.")
-    print(" ▶️  sair: para encerrar.")
-    print(" ▶️  ajuda: para pedir ajuda ao Bot.\n")
+    print(" ▶️ history: para acessar o Histórico.")
+    print(" ▶️ sair: para encerrar.")
+    print(" ▶️ ajuda: para pedir ajuda ao Bot.\n")
     while True:
-        query = input(" You ")
+        query = input("😀 > ")
         history.append(query)
         history_dialogue.append(query)
 
-        if query.lower() == 'historico':
+        if query.lower() == 'history':
             print("Histórico:")
             i = 0
             for ask in history:
@@ -38,7 +38,7 @@ def bot():
 
             print(f"   🤖 {response}")
     
-    with open("historico.txt", "+w") as file:
+    with open("history_dialogue.txt", "+w") as file:
         for line in history_dialogue:
             file.write(str(f"{line}\n"))
 
