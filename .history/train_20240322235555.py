@@ -59,7 +59,7 @@ def train():
     )
 
     csvs_list = os.listdir(CSVS_DIR)
-    cod_list = []
+    pregoes_list = []
 
     for csv_file_path in csvs_list:
         with open(os.path.join(CSVS_DIR, csv_file_path), 'r', encoding='UTF-8') as csv_file:
@@ -78,7 +78,7 @@ def train():
 
     trainer_asks.train([
         "Quais são todos os códigos de negociação?",
-        '\n'.join(cod_list),
+        '\n'.join(pregoes_list),
     ])
     trainer_asks.train([
         "Ajuda",

@@ -1,0 +1,11 @@
+ajuda
+Quer saber quais os tipos de perguntas disponíveis?
+sim
+Quando o relatório do {} foi atualizado? Qual o códigos de negociação do {}? Qual o CNPJ do {}? Qual a atividade principal do {}? Qual a classificação setorial do {}? Qual o site do {}? Quais os contatos do {}? Quais as noticias do {}? Qual o periodo do Balanço Patrimonial do {}? Qual é o ativo imobilizado do {}? Qual é o ativo total do {}? Qual é o pratimônio liquido do {}? Qual é o Patrimônio Líquido Atribuído à Controladora do {}? Quais os períodos da demonstração de resultados do {}? Qual é a Receita de Venda do {}? Qual é a Resultado Bruto do {}? Qual é o Resultado de Equivalência Patrimonial do {}? Qual é a Resultado Financeiro do {}? Qual é a Resultado Líquido das Operações Continuadas do {}? Qual é o Lucro Prejuízo do Período do {}? Qual é o Lucro Prejuízo do Período Atribuído à Controladora do {}? Qual é o período da Demonstração do Fluxo de Caixa do {}? Quais é o valor das Atividades Operacionais do {}? Quais é o valor das Atividades de Investimento do {}? Quais é o valor das Atividades de Financiamento do {}? Quais é o valor das Variação Cambial sobre Caixa e Equivalentes do {}? Quais é o valor do Aumento (Redução) de Caixa e Equivalentes do {}? Quais as Posições Acionárias do {}? Quando as posições acionárias do {} foram recebidas? Quais as Ações em Circulação no Mercado do {}? Qual a Composição do Capital Social do {}?
+Quais é o valor das Atividades Operacionais do ABEV3
+Quer saber quais os tipos de perguntas disponíveis?
+Qual o cnpj do ABEV3
+o
+Qual o cnpj do bradesco
+e
+quit
