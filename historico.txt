@@ -1,22 +1,8 @@
+oi
 ajuda
-Quer saber quais os tipos de perguntas disponíveis?
-Sim
-Quando o relatório do {} foi atualizado? Qual o códigos de negociação do {}? Qual o CNPJ do {}? Qual a atividade principal do {}? Qual a classificação setorial do {}? Qual o site do {}? Quais os contatos do {}? Quais as noticias do {}? Qual o periodo do Balanço Patrimonial do {}? Qual é o ativo imobilizado do {}? Qual é o ativo total do {}? Qual é o pratimônio liquido do {}? Qual é o Patrimônio Líquido Atribuído à Controladora do {}? Quais os períodos da demonstração de resultados do {}? Qual é a Receita de Venda do {}? Qual é a Resultado Bruto do {}? Qual é o Resultado de Equivalência Patrimonial do {}? Qual é a Resultado Financeiro do {}? Qual é a Resultado Líquido das Operações Continuadas do {}? Qual é o Lucro Prejuízo do Período do {}? Qual é o Lucro Prejuízo do Período Atribuído à Controladora do {}? Qual é o período da Demonstração do Fluxo de Caixa do {}? Quais é o valor das Atividades Operacionais do {}? Quais é o valor das Atividades de Investimento do {}? Quais é o valor das Atividades de Financiamento do {}? Quais é o valor das Variação Cambial sobre Caixa e Equivalentes do {}? Quais é o valor do Aumento (Redução) de Caixa e Equivalentes do {}? Quais as Posições Acionárias do {}? Quando as posições acionárias do {} foram recebidas? Quais as Ações em Circulação no Mercado do {}? Qual a Composição do Capital Social do {}?
-Qual o CNPJ do Mais Códigos ABEV3
-r
-Qual o CNPJ do Mais Códigos
-.
-Qual o CNPJ do Mais Códigos
-h
-Qual o CNPJ do Mais Códigos
-Qual o CNPJ do Mais Códigos
-Quando o relatório do ABEV3 foi atualizado
-s
-Quando o relatório do Mais códigos ABEV3 foi atualizado
-c
-historico
-eixt
-.
-exit
-t
-quit
+Quer saber quais os tipos de perguntas disponÃ­veis?
+sim
+Perguntas gerais sobre um arquivo, como: Dados da Companhia, BalanÃ§o Patrimonial - Consolidado, DemonstraÃ§Ã£o do Resultado - Consolidado, DemonstraÃ§Ã£o do Fluxo de Caixa - Consolidado, PosiÃ§Ã£o AcionÃ¡ria*, AÃ§Ãµes em CirculaÃ§Ã£o no Mercado, ComposiÃ§Ã£o do Capital Social
+eu gostaria de ver as especificas
+Qual o nome de pregÃ£o do {}?, Qual o cÃ³digos de negociaÃ§Ã£o do {}?, Qual o CNPJ do {}?, Qual a atividade principal do {}?, Qual a classificaÃ§Ã£o setorial do {}?, Qual o site do {}?, Quais as noticias do {}?
+q
