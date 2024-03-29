@@ -1,6 +1,6 @@
 from pdftocsv import pdftocsv
 from train import train
-from turingbot import bot
+from aibot import bot
 
 # Converting PDFs
 print("Convertendo PDFs to CSVs")
