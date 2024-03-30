@@ -34,7 +34,7 @@ def extrair_informacao(filename_csv, consulta=None):
                             if consulta in lista:
                                 posicao = lista.index(consulta)
                             elif posicao is not None:  # Verifica se posicao foi definida
-                                dicionario[consulta] = [{key:value[posicao]} for key, value in dict_text.items() if value[posicao] != consulta]
+                                dicionario[consulta] = [lista[posicao] for lista in dict_text.values() if lista[posicao] != consulta]
         return dicionario
 
 def specific_train(csvs_path, asks_specific, trainer_asks):
@@ -111,27 +111,8 @@ def train():
         'Classificação Setorial': 'Qual a classificação setorial do {}?',
         'Site': 'Qual o site do {}?',
         'Plantão de Notícias delay de 15 min.': 'Quais as noticias do {}?',
-        'Ativo Imobilizado, Investimentos e Intangível': 'Qual é o ativo imobilizado do {}',
-        'Ativo Total': 'Qual é o ativo total do {}',
-        'Patrimônio Líquido': 'Qual é o patrimonio líquido do {}',
-        'Patrimônio Líquido Atribuído à Controladora': 'Qual é o patrimonio líquido atribuido a controladora do {}',
-        'Receita de Venda': 'Qual é a receita de venda do {}',
-        'Resultado Bruto': 'Qual é o resultado bruto do {}',
-        'Resultado de Equivalência Patrimonial': 'Qual é o resultado de equivalencia patrimonial do {}',
-        'Resultado Financeiro': 'Qual é o resultado financeiro do {}',
-        'Resultado Líquido das Operações Continuadas': 'Qual é o resultado líquido das operações continuadas do {}', 
-        'Lucro (Prejuízo) do Período': 'Qual o lucro do período do {}', 
-        'Lucro (Prejuízo) do Período Atribuído à Controladora': 'Qual é o lucro do período atribuído à controladora do {}',
-        'Atividades Operacionais': 'Qual é as atividades operacionais do {}', 
-        'Atividades de Investimento': 'Qual é as atividades de investimento do {}', 
-        'Atividades de Financiamento': 'Qual é as atividades de Financiamento do {}', 
-        'Variação Cambial sobre Caixa e Equivalentes': 'Qual é a variação cambial sobre caixa e equivalentes do {}', 
-        'Aumento (Redução) de Caixa e Equivalentes': 'Qual o aumento de caixa e quivalentes do {}',
-        'Pessoas Físicas': 'Quais as pessoas físicas do {}',
-        'Pessoas Jurídicas': 'Quais as pessoas jurídicas do {}', 
-        'Investidores Institucionais': 'Quais os investidores institucionais do {}', 
-        'Quantidade de Ações Ordinárias': 'Quais as quantidades de ações ordinárias do {}', 
-        'Total de Ações':'O total de ações do {} é',
+        'Ativo Imobilizado': 'Qual é o ativo imobilizado do {}',
+        
     }
 
     csvs_list = os.listdir(csv_dir)

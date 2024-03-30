@@ -126,12 +126,12 @@ def train():
         'Atividades de Investimento': 'Qual é as atividades de investimento do {}', 
         'Atividades de Financiamento': 'Qual é as atividades de Financiamento do {}', 
         'Variação Cambial sobre Caixa e Equivalentes': 'Qual é a variação cambial sobre caixa e equivalentes do {}', 
-        'Aumento (Redução) de Caixa e Equivalentes': 'Qual o aumento de caixa e quivalentes do {}',
-        'Pessoas Físicas': 'Quais as pessoas físicas do {}',
-        'Pessoas Jurídicas': 'Quais as pessoas jurídicas do {}', 
-        'Investidores Institucionais': 'Quais os investidores institucionais do {}', 
-        'Quantidade de Ações Ordinárias': 'Quais as quantidades de ações ordinárias do {}', 
-        'Total de Ações':'O total de ações do {} é',
+        'Aumento (Redução) de Caixa e Equivalentes': 'Qual o aumento de caixa e quivalentes',
+        'Pessoas Físicas': '',
+        'Pessoas Jurídicas': '', 
+        'Investidores Institucionais': '', 
+        'Quantidade de Ações Ordinárias': '', 
+        'Total de Ações':'',
     }
 
     csvs_list = os.listdir(csv_dir)

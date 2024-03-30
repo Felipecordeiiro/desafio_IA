@@ -131,7 +131,7 @@ def train():
         'Pessoas Jurídicas': 'Quais as pessoas jurídicas do {}', 
         'Investidores Institucionais': 'Quais os investidores institucionais do {}', 
         'Quantidade de Ações Ordinárias': 'Quais as quantidades de ações ordinárias do {}', 
-        'Total de Ações':'O total de ações do {} é',
+        'Total de Ações':'',
     }
 
     csvs_list = os.listdir(csv_dir)

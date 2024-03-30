@@ -118,20 +118,13 @@ def train():
         'Receita de Venda': 'Qual é a receita de venda do {}',
         'Resultado Bruto': 'Qual é o resultado bruto do {}',
         'Resultado de Equivalência Patrimonial': 'Qual é o resultado de equivalencia patrimonial do {}',
-        'Resultado Financeiro': 'Qual é o resultado financeiro do {}',
-        'Resultado Líquido das Operações Continuadas': 'Qual é o resultado líquido das operações continuadas do {}', 
-        'Lucro (Prejuízo) do Período': 'Qual o lucro do período do {}', 
-        'Lucro (Prejuízo) do Período Atribuído à Controladora': 'Qual é o lucro do período atribuído à controladora do {}',
-        'Atividades Operacionais': 'Qual é as atividades operacionais do {}', 
-        'Atividades de Investimento': 'Qual é as atividades de investimento do {}', 
-        'Atividades de Financiamento': 'Qual é as atividades de Financiamento do {}', 
-        'Variação Cambial sobre Caixa e Equivalentes': 'Qual é a variação cambial sobre caixa e equivalentes do {}', 
-        'Aumento (Redução) de Caixa e Equivalentes': 'Qual o aumento de caixa e quivalentes do {}',
-        'Pessoas Físicas': 'Quais as pessoas físicas do {}',
-        'Pessoas Jurídicas': 'Quais as pessoas jurídicas do {}', 
-        'Investidores Institucionais': 'Quais os investidores institucionais do {}', 
-        'Quantidade de Ações Ordinárias': 'Quais as quantidades de ações ordinárias do {}', 
-        'Total de Ações':'O total de ações do {} é',
+        'Resultado Financeiro': '',
+        'Resultado Líquido das Operações Continuadas': '', 
+        'Lucro (Prejuízo) do Período': '', 
+        'Lucro (Prejuízo) do Período Atribuído à Controladora':'',
+        'Atividades Operacionais': '', 
+        'Atividades de Investimento': '', 
+        'Atividades de Financiamento':  '', 'Variação Cambial sobre Caixa e Equivalentes', 'Aumento (Redução) de Caixa e Equivalentes
     }
 
     csvs_list = os.listdir(csv_dir)
